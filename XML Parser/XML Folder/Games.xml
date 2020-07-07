@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE FavouriteGames
+[
+	<!ELEMENT FavouriteGames (Game+)>
+	
+	<!ELEMENT Game (Title, Developer, Year, Genre, Price)>
+	<!ATTLIST Game name CDATA #REQUIRED>
+	
+	<!ELEMENT Title (#PCDATA)>
+	<!ELEMENT Developer (#PCDATA)>
+	<!ELEMENT Year (#PCDATA)>
+	<!ELEMENT Genre (#PCDATA)>
+	<!ELEMENT Price (#PCDATA)>
+]>
+
+<!-- Favourite Games -->
+<FavouriteGames>
+
+	<!-- Game 1 -->
+	<Game name="Game 1">
+		<Title> Dark Souls 2 </Title>
+		<Developer> FromSoftware, Inc </Developer>
+		<Year> 2014 </Year>
+		<Genre> RPG </Genre>
+		<Price> $29.99 </Price>
+	</Game>
+	
+	<!-- Game 2 -->
+	<Game name="Game 2">
+		<Title> The Elder Scrolls V: Skyrim </Title>
+		<Developer> Bethesda Game Studios </Developer>
+		<Year> 2011 </Year>
+		<Genre> RPG </Genre>
+		<Price> $23.99 </Price>
+	</Game>
+	
+	<!-- Game 3 -->
+	<Game name="Game 3">
+		<Title> Ori and the Blind Forest </Title>
+		<Developer> Moon Studios GmbH </Developer>
+		<Year> 2015 </Year>
+		<Genre> Platformer </Genre>
+		<Price> $23.90 </Price>
+	</Game>
+	
+	<!-- Game 4 -->
+	<Game name="Game 4">
+		<Title> Clicker Heroes </Title>
+		<Developer> Playsaurus </Developer>
+		<Year> 2015 </Year>
+		<Genre> Clicker </Genre>
+		<Price> Free </Price>
+	</Game>
+	
+	<!-- Game 5 -->
+	<Game name="Game 5">
+		<Title> Far Cry Primal </Title>
+		<Developer> Ubisoft </Developer>
+		<Year> 2016 </Year>
+		<Genre> FPS </Genre>
+		<Price> $69.95 </Price>
+	</Game>
+	
+	<!-- Game 6 -->
+	<Game name="Game 6">
+		<Title> Shadow Warrior 2 </Title>
+		<Developer> Flying Wild Hog </Developer>
+		<Year> 2016 </Year>
+		<Genre> Action </Genre>
+		<Price> $47.99 </Price>
+	</Game>
+	
+</FavouriteGames>
